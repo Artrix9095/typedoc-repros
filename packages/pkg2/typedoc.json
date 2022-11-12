@@ -1,0 +1,8 @@
+{
+  "name": "pkg2",
+  "typedoc": {
+    "entryPoint": "./src/index.ts",
+    "displayName": "Slythejs Core",
+    "tsconfig": "./tsconfig.json"
+  }
+}

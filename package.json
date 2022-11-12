@@ -1,7 +1,14 @@
 {
   "name": "typedoc-repros",
-  "dependencies": {
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "pnpm": "^7.15.0",
     "typedoc": "latest",
+    "typedoc-plugin-markdown": "3.13.6",
     "typescript": "latest"
   }
 }
